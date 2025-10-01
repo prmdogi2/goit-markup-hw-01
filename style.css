@@ -1,0 +1,70 @@
+body,header{ font-family: "Roboto", sans-serif;
+
+color: #2E2F42;
+font-size:large;
+
+}
+
+.birinci{
+  color: #2E2F42;
+  font-size: small;
+  line-height: 1.5;
+  
+  
+}
+.ikinci{
+  color: #2E2F42;
+   font-size: small;
+   line-height: 1.5;
+}.ucuncu{
+  color: #2E2F42;
+   font-size: small;
+   line-height: 1.5;
+}
+.dort{color: #2E2F42;
+   font-size: smaller;
+}
+
+.bes{
+  color: #2E2F42;
+   font-size: smaller;
+}
+.arkaplan{
+  color: white;
+  background-color:  #2E2F42;
+ margin-bottom: 100px;
+ 
+
+}
+.buton {
+  font-size: larger;
+  color: white;
+  background-color: #4D5AE5;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.buton:hover {
+  background-color: #3a47d5;
+}
+
+.Team{
+  background-color:#F4F4FD ;
+ border-style:solid;
+ line-height: 1.5;
+}
+ 
+.yazı{
+   font-weight: 400;
+  font-size:xx-large;
+}
+
+.alt{
+  border-style: solid;
+}
+.son{
+  background-color: #2E2F42;
+  color: white;
+}
