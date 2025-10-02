@@ -1,0 +1,103 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  line-height: 1.5;
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+
+nav a:hover,
+address a:hover {
+  color: hsl(29, 87%, 50%);
+}
+
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: hsl(29, 87%, 50%);
+}
+.logo .logo-accent {
+  color:#646686 ;
+}
+
+
+.hero {
+  background-color:#2e2f42 ;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #4d5ae5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: hsl(29, 87%, 50%);
+}
+
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+.features li {
+  margin-bottom: 40px;
+}
+.team{
+  background-color: #F4F4FD;
+}
+
+.team ul {
+ list-style: none;
+  display: flex;
+ 
+  gap: 20px;
+  padding: 0;
+  justify-content: center;
+}
+.team h3.team-name:hover {
+  color: hsl(29, 87%, 50%);
+}
+
+
+.portfolio ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  justify-content: center;
+}
+
+.portfolio h3.portfolio-name:hover{
+  color: hsl(29, 87%, 50%) ;
+}
+
+.footer {
+  background-color: #2e2f42;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+.span{
+  color: white;
+}
